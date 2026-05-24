@@ -109,19 +109,34 @@ public class OrderService {
 
 ### Steps
 
-1. **Download this repository** as a ZIP or clone it:
+1. **Clone or download this repository:**
    ```bash
    git clone https://github.com/kumarprabhashanand/java-springboot-code-review.git
    ```
 
-2. **Open Claude** and navigate to **Settings → Skills** (or your team's skill management panel).
+2. **Copy the skill folder** into your Claude user skills directory:
+   ```bash
+   cp -r java-springboot-code-review /mnt/skills/user/java-springboot-code-review
+   ```
+   > The exact path may vary by platform. Common locations:
+   > - **Linux/Mac:** `/mnt/skills/user/`
+   > - **Claude Desktop:** check your app's skill settings for the configured path
 
-3. **Install the skill** by uploading or pointing to the skill folder containing `SKILL.md`.
+3. **Verify the structure** looks exactly like this — the `references/` subfolder must be present:
+   ```
+   java-springboot-code-review/
+   ├── SKILL.md
+   └── references/
+       ├── spring-pitfalls.md
+       └── business-impact-patterns.md
+   ```
 
-4. **Verify** by pasting any Java class and asking:  
+4. **Restart Claude** (or reload skills if your interface supports it).
+
+5. **Test it** by pasting any Java class and asking:  
    *"Review this code"* or *"Is this safe to deploy?"*
 
-> **Note:** The exact installation UI may vary depending on your Claude plan and interface version. Refer to [Anthropic's documentation](https://docs.claude.com) for the latest steps.
+> **Note:** The exact installation UI and paths may vary depending on your Claude plan and version. Refer to [Anthropic's documentation](https://docs.claude.com) for the latest guidance on installing user skills.
 
 ---
 

@@ -26,10 +26,10 @@ in production.
 
 **Always read both reference files before reviewing any code:**
 
-1. `/mnt/skills/public/java-springboot-code-review/references/spring-pitfalls.md`
+1. `references/spring-pitfalls.md`
    — Read for transaction, proxy, AOP, JPA, security, async, caching, or configuration issues.
 
-2. `/mnt/skills/public/java-springboot-code-review/references/business-impact-patterns.md`
+2. `references/business-impact-patterns.md`
    — Read when reviewing payment, order, inventory, user account, notification, or financial code.
 
 Do not skip loading these. They contain non-obvious Spring Boot behaviors that are easy to miss.
