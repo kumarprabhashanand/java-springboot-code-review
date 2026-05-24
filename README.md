@@ -111,7 +111,7 @@ public class OrderService {
 
 1. **Download this repository** as a ZIP or clone it:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/java-springboot-code-review.git
+   git clone https://github.com/kumarprabhashanand/java-springboot-code-review.git
    ```
 
 2. **Open Claude** and navigate to **Settings → Skills** (or your team's skill management panel).
