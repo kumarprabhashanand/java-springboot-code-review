@@ -192,5 +192,5 @@ MIT License — see [LICENSE](./LICENSE).
 
 ## Author
 
-Created and maintained by a Java/Spring Boot practitioner.  
+Created and maintained by Kumar Prabhash Anand ([gh](https://github.com/kumarprabhashanand), [in](https://www.linkedin.com/in/kumarprabhashanand/), [medium](https://medium.com/@kumarprabhashanand)).  
 Reviewed and refined using Claude's skill creator framework.
